@@ -1,0 +1,301 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    font-family: "Heebo",sans-serif;
+
+}
+
+.landing{
+    border: 2px solid black;
+    position: flex;/*it was cover*/
+    min-height: 100vh;
+    background-image: url("./IMGCOMPUTER.jpg");
+    background-size: cover;
+    padding: 0rem 5rem;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 10vh;
+    
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    
+
+
+}
+a{ color: white;}
+
+.nav-links li{
+    padding-left: 10rem;
+    font-size: 1.2rem;
+    color: white;
+    
+}
+
+
+#logo{
+    font-family: "Lobster" , sans-serif;
+    font-weight: lighter;
+    font-size: 5rem;
+    color: WHITE;
+
+
+}
+
+.big-text{
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -30%);
+   font-size: 5rem;
+   font-family: "Lbster" , cursive;
+   color: rgb(250, 250, 250);
+   
+}
+
+
+
+
+.intro {
+    background: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider {
+    background: rgb(97, 105, 109);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+}
+
+
+.intro-text {
+  color: rgb(227, 242, 255);
+  font-family: "Heebo", sans-serif;
+  font-size: 3rem;
+
+}
+
+.hide{
+    background: black;
+    overflow: hidden;
+    
+    
+    
+}
+
+.hide span {
+    transform: translateY(100%);
+    display: inline-block;
+}
+
+
+.eu img{
+    position: absolute;
+   top: 40%;
+   left: 43%;
+    align-items: center;
+    justify-content: center;
+    max-width:400px;
+    max-height:400px;
+    width: auto;
+    height: auto;
+    border-radius: 60%;
+}
+
+.JS{
+    position: absolute;
+   top: 85%;
+   left: 30%;
+   transform: translate(-50%, -30%);
+   font-size: 5rem;
+   font-family: "Lbster" , 'Times New Roman', Times, serif;
+   color: rgb(238, 222, 0);
+   
+}
+
+.HTML{
+    position: absolute;
+   top: 85%;
+   left: 10%;
+   transform: translate(-50%, -30%);
+   font-size: 5rem;
+   font-family: "Lbster", 'Times New Roman', Times, serif;
+   color: rgb(238, 48, 0);
+
+}
+
+.CSS{
+    position: absolute;
+   top: 85%;
+   left: 50%;
+   transform: translate(-50%, -30%);
+   font-size: 5rem;
+   font-family: "Lbster" , 'Times New Roman', Times, serif;
+   color: rgb(255, 255, 255);
+
+
+}
+
+.PHP{
+    position: absolute;
+   top: 85%;
+   left: 70%;
+   transform: translate(-50%, -30%);
+   font-size: 5rem;
+   font-family: "Lbster" , 'Times New Roman', Times, serif;
+   color: black;
+
+
+}
+
+.GSAP{
+
+position: absolute;
+top: 85%;
+left: 90%;
+transform: translate(-50%, -30%);
+font-size: 5rem;
+font-family: "Lbster" , 'Times New Roman', Times, serif;
+color: rgb(0, 110, 0);
+font: cursive;
+}
+
+
+
+
+
+
+/*segunda section*/
+
+
+
+
+.skills{
+    
+
+    border: 2px solid black;
+    background-color: white;
+    height: 100vh;
+    position: cover;/*it was ABSOLUTE*/
+    min-height: 60vh;
+    background-image: url("./pexels-la-miko-3616764.jpg");
+    opacity: 5;
+    background-size: cover;
+    padding: 0rem 5rem;
+    filter: blur(2);
+    background-size:cover;
+    
+}
+
+
+
+
+
+
+.aboutme{
+    
+align-items: center;
+justify-content: center;
+position: relative;
+top: 20%;
+left: 50%;
+font-size: 40px;
+font-family: "Lbster" , 'Times New Roman', Times, serif;
+color: rgb(0, 0, 0);
+
+
+}
+
+.aboutme a{
+    color: black;
+}
+
+.aboutmecontent{
+    
+align-items: center;
+justify-content: center;
+position: relative;
+top: 40%;
+left: 0%;
+font-size: 40px;
+font-family: "Lbster" , 'Times New Roman', Times, serif;
+color: black;
+text-align: center;
+
+}
+
+
+
+
+/*Terceira Section*/
+
+
+.contact{
+    
+
+
+    border: 2px solid black;
+    background-color :rgb(252, 248, 248);
+    height: 100vh;
+    position: cover;/*it was ABSOLUTE*/
+    min-height: 60vh;
+    background-image: url("./pexels-pixabay-531321.jpg");
+    opacity: 5;
+    background-size: cover;
+    padding: 0rem 5rem;
+    filter: blur(2);
+    background-size:cover;
+
+}
+
+.contatos{
+align-items: center;
+    justify-content: center;
+position: relative;
+top: 20%;
+left: 50%;
+font-size: 40px;
+font-family: "Lbster" , 'Times New Roman', Times, serif;
+color: white;
+font: cursive;
+}
+
+.email{
+    align-items: center;
+    justify-content: center;
+position: relative;
+top: 30%;
+left: 30%;
+font-size: 40px;
+font-family: "Lbster" , 'Times New Roman', Times, serif;
+color: white;
+font: cursive;
+
+}
+
+.contatos a{
+    color: white;
+}
+
+
+
